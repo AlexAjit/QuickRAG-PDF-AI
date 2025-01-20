@@ -1,0 +1,100 @@
+# Node.js (Frontend)
+node_modules/
+.next/
+out/
+*.log
+*.env.local
+*.env.development.local
+*.env.production.local
+*.env.test.local
+.env
+
+# Build files
+/build
+/dist
+
+# Tailwind CSS
+tailwind.config.js.bak
+
+# Python (Backend)
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.env
+*.env.*
+instance/
+.pytest_cache/
+*.sqlite3
+
+# FastAPI-specific
+*.db
+alembic/versions/
+
+# Docker
+docker-compose.override.yml
+docker/data/
+docker/logs/
+docker/nginx.conf.bak
+
+# Logs and reports
+*.log
+*.pid
+*.out
+*.err
+logs/
+report/
+coverage/
+
+# OS/IDE-specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+.idea/
+.vscode/
+*.iml
+
+# Git-specific
+.git/
+*.patch
+*.diff
+
+# Testing
+test-results/
+coverage/
+.nyc_output/
+
+# Temporary files and caches
+temp/
+tmp/
+.cache/
+*.tmp
+*.bak
+*.swp
+
+# Optional: Ignore files you don't want tracked in frontend-specific rules
+frontend/public/static/
+frontend/.next/
+frontend/out/
+
+# Optional: Ignore files you don't want tracked in backend-specific rules
+backend/app/.env
+backend/app/temp/
+
+# Optional: Nginx logs (Docker-specific)
+nginx/logs/
+
+# Ignore files for your uploaded documents
+uploaded_docs/
+processed_docs/
+
+# Prevent local uploads from being tracked
+uploads/
+
+# Optional: Ignore custom rules (e.g., user-specific files or scripts)
+custom_scripts/
