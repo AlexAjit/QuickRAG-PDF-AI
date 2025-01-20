@@ -1,6 +1,6 @@
 // app/layout.tsx (or your root layout file)
-
 import React from 'react';
+import './globals.css';
 
 interface LayoutProps {
   children: React.ReactNode;
